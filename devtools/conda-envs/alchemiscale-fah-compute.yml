@@ -1,0 +1,14 @@
+name: alchemiscale-fah
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - python =3.10
+
+  - alchemiscale-compute
+
+  # alchemiscale-fah dependencies
+  - cryptography
+
+  - pip:
+    - git+https://github.com/choderalab/feflow.git@neqcyc-setup-unit
